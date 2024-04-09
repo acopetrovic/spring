@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 @Component(value = "personBean")
 public class Person {
 
-    private String name = "Lucy";
+    private String name = "Luc";
     private final Vehicle vehicle;
 
     @Autowired
